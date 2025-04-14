@@ -1,4 +1,4 @@
-from telemarketers import is_telemarketer
+from challenge import is_telemarketer
 
 
 def test_telemarketer_ignore():
