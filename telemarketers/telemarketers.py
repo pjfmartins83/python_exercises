@@ -35,10 +35,7 @@ def is_telemarketer(phone_number):
         (phone_number[0] == 8 or phone_number[0] == 9)
         and (phone_number[3] == 8 or phone_number[3] == 9)
         and (phone_number[1] == phone_number[2])
-    ):        
+    ):
         return "ignore"
     else:
         return "answer"
-
-print(is_telemarketer([2, 1, 5, 4]))
-
