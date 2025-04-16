@@ -1,4 +1,4 @@
-from challenge import frequency_counter
+from frequency_counter import frequency_counter
 
 
 def test_letter_frequency_counter_1():
