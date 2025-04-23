@@ -1,4 +1,5 @@
-from word_count import count_words
+import pytest
+from challenge import count_words
 
 
 def test_one_word():
