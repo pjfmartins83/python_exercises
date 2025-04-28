@@ -24,8 +24,3 @@ def get_second_largest(input):
         elif item > second_largest_number:
             second_largest_number = item
     return second_largest_number
-
-
-print(get_second_largest([1, 5, 7, 3, 6, 9, 2, 1, 7]))
-print(get_second_largest([1, 2]))
-print(get_second_largest([5, 5, 5]))

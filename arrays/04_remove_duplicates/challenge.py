@@ -17,6 +17,3 @@ def remove_duplicates(input):
         if item not in uniques:
             uniques.append(item)
     return uniques
-
-
-print(remove_duplicates([1, 2, 3, 3, 4, 5, 3]))

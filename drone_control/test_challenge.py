@@ -2,7 +2,7 @@ import pytest
 from challenge import get_drone_position
 
 
-def test_no_imnput():
+def test_no_input():
     assert get_drone_position("") == (0, 0)
 
 
