@@ -28,3 +28,6 @@ import math
 def get_cone_volume(r, h):
     volume = (math.pi * (r * r) * h) / 3
     return volume
+
+
+print(get_cone_volume(2, 3))
