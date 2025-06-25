@@ -11,9 +11,9 @@ Output: [1, 2, 3, 4, 5]
 """
 
 
-def remove_duplicates(input):
+def remove_duplicates(arr):
     uniques = []
-    for item in input:
+    for item in arr:
         if item not in uniques:
             uniques.append(item)
     return uniques

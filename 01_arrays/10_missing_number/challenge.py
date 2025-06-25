@@ -20,4 +20,4 @@ def find_missing_number(arr):
     return expected_sum - actual_sum
 
 
-print(find_missing_number([1, 2, 3, 5, 6, 7, 8, 9]))
+# print(find_missing_number([1, 2, 3, 5, 6, 7, 8, 9]))
